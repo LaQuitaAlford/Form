@@ -1,0 +1,47 @@
+body {
+    background-image:linear-gradient(teal, yellow);
+
+}
+
+h1{
+    color: purple;
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: cursive;
+}
+
+.button{
+    
+    border-radius: 50%;
+    
+}
+
+label, p{
+    color: teal; 
+}
+
+form{
+    
+    
+    background-color: purple;
+    
+
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding: 90px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+
+    
+}
+
+
+    

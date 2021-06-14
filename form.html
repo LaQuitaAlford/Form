@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+
+    <body>
+
+
+        <h1>Contact Us!</h1>
+
+
+        
+
+        <form>
+            <h2>Please Provide the Required Information!</h2>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <h2>Please Subscribe! </h2>
+            Please Enter Your Email to Subscribe! <input type="text" name ="email" id="email" required><br>
+            
+            <input type="submit" class="button">
+            <input type="reset" class="button">
+
+
+
+            
+            
+           
+
+
+
+
+        <h2>What pains are you experiencing?</h2>
+
+       
+
+        
+            <input type="checkbox" id="pain1" name="pain1" value="Headache">
+            <label for="pain1"> Headache </label><br>
+            <input type="checkbox" id="pain2" name="pain2" value="Stomach">
+            <label for="pain2"> Stomach Pains</label><br>
+            <input type="checkbox" id="pain3" name="pain3" value="Muscle">
+            <label for="pain3"> Muscle Aches</label><br><br>
+          
+          
+                    
+
+        <h2>Pain Scale</h2>
+
+        <label for="myChoice">Measure your pain from 1 to 10:</label>
+        <input type="number"
+        name="myChoice"
+        id="myChoice“
+        min="1" max="10">
+
+
+        <h2>Appointment Time</h2>
+        <p>Please select your appointment time from the drop-list</p>
+
+
+  <label for="times">Choose Appointment Time</label>
+  <select name="times" id="times">
+    <option value="time1">8:00am</option>
+    <option value="time2">9:00am</option>
+    <option value="time3">11:00am</option>
+    <option value="time4">1:00pm</option>
+  </select>
+  <br><br>
+  
+
+
+
+
+        <h2>Choose Your Appointment</h2>
+
+
+        <label for="myDate">Choose a Date</label>
+        <input type="date" name="myDate" id="myDate">
+        <br>
+        <br>
+        <label for="subject">Comments</label>
+        <textarea id="subject" name="subject" placeholder="Details.." style="height:100px"></textarea>
+        <br>
+        <input type="submit" value="Submit" class="button">
+        </form>        
+    </body>
+</html>
